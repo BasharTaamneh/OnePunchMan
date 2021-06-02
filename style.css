@@ -1,0 +1,10 @@
+header {
+  background-color:  #fb3640 ;
+   color: rgba(245, 224, 40, 0.993);
+   height: 75px;
+} 
+header div {
+  float: left;
+}
+
+
