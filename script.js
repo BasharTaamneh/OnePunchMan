@@ -26,6 +26,15 @@ if (userAnswer == answer )
 }
 else{
   alert("rong answer !")
-}
-
+  function confirm(y=".")
+   {
+  let x;
+  do 
+{
+    x = prompt(y);
+} while (!/y(es)?|no?/i.test(x));
+return /y(es)?/i.test(x);
+   }
+confirm("Mark a correct answer please");
+  }
 
