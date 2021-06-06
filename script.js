@@ -46,7 +46,6 @@ var punmen = function () {
   }
   return output;
 }
-
 var res = punmen();
 document.write(res);
 
