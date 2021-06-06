@@ -23,14 +23,7 @@ if (userAnswer == answer) {
 }
 else {
   alert("rong answer !")
-
-alert("hello teacher assistant ^_^ this is " + userName)
-
-document.write("<p style='color:red;'> this is " + userName
-  + " from java script ^_^ </p>")
-
-var userAnswer = prompt("do you like anime ? ");
-console.log(userAnswer);
+}
 
 var answer = "yes";
 var disanswer = "no";
@@ -69,6 +62,7 @@ var punmen = function () {
   }
   return output;
 }
+
 var res = punmen();
 document.write(res);
 
