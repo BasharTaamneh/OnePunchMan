@@ -33,7 +33,7 @@ else {
     return /y(es)?/i.test(x);
   }
   confirm("Mark a correct answer please");
-}
+
 
 var n = prompt("how many punch men you want to see ?")
 var punmen = function () {
