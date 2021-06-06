@@ -25,22 +25,6 @@ else {
   alert("rong answer !")
 }
 
-var answer = "yes";
-var disanswer = "no";
-
-if (userAnswer == answer) {
-
-  alert("you chose the best story")
-
-} else if (userAnswer == disanswer) {
-
-  alert("ok cheke out the serial story you will like it ^_^ ")
-
-}
-else {
-  alert("rong answer !")
-
-
   function confirm(y = '') {
     let x;
     do {
