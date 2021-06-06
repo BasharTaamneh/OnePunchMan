@@ -23,7 +23,7 @@ if (userAnswer == answer) {
 }
 else {
   alert("rong answer !")
-}
+
 
   function confirm(y = '') {
     let x;
@@ -32,8 +32,8 @@ else {
     } while (!/y(es)?|no?/i.test(x));
     return /y(es)?/i.test(x);
   }
-  confirm("Mark a correct answer please");
-
+    confirm("Mark a correct answer please");
+}
 
 var n = prompt("how many punch men you want to see ?")
 var punmen = function () {
